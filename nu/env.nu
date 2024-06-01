@@ -1,0 +1,1 @@
+/home/thales/.config/nushell/env.nu
