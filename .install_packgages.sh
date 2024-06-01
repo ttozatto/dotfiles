@@ -13,12 +13,12 @@ brew install nushell
 brew install jandedobbeleer/oh-my-posh/oh-my-posh
 
 # Instalação de pacotes do Arch Linux
-yay alacritty neovim ripgrep gcc make fzf bat
+yay alacritty neovim ripgrep gcc make fzf bat python-pipx
 
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 
-# Instalação do pipx e virtualenv
-sudo pacman -S python-pipx python-virtualenv
+# Instalação do virtualenv
+pipx install virtualenv
 
 cd .config
 cp alacritty ~/.config --recursive
