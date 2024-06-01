@@ -26,8 +26,8 @@ brew install jandedobbeleer/oh-my-posh/oh-my-posh
 # Instalação do virtualenv
 pipx install virtualenv
 
-yes | cp -rf ./config/nushell ~/.config
-yes | cp -rf ./config/nvim ~/.config
+yes | cp -rf .config/nushell ~/.config
+yes | cp -rf .config/nvim ~/.config
 
 echo "Todos os pacotes foram instalados com sucesso!"
 
