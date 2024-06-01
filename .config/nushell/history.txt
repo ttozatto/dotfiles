@@ -1,0 +1,362 @@
+brew install jandedobbeleer/oh-my-posh/oh-my-posh
+fzf
+oh-my-posh font install
+oh-my-posh get shell
+nvim
+nvim $nu.env-path
+nvim $nu.config-path
+exit
+oh-my-posh
+$(brew --prefix)/bin
+zsh
+exit
+brew
+fih
+fish
+fzf
+cd /
+fzf
+bash
+nvim
+cd ~
+nvim .bashrc
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+cd /bin
+cd bash
+./bash
+$/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+exit
+nvim $nu.env-path
+exit
+nvim
+nvim $nu.config-path
+nvim $env.EDITOR
+nvim $env
+nvim $nu.env-path
+nvim $nu.config-path
+nvim $(fzf)
+nvim 'fzf'
+nvim (fzf)
+nvim 'fzf'
+nvim (fzf)
+which nu]
+which nu
+nvim (fzf)
+alacritty -v
+fc-match "Menlo"
+xlsfonts
+nvim (fzf)
+Get-PoshThemes
+$(brew --prefix)/bin
+(brew --prefix)/bin
+($brew --prefix)/bin
+zsh
+bat
+yay bat
+bat
+zsh
+nvim /home/linuxbrew/.linuxbrew/opt/oh-my-posh/themes/
+ls /home/linuxbrew/.linuxbrew/opt/oh-my-posh/themes/
+export-env {$env.SHELL-THEME-PATH = '/home/linuxbrew/.linuxbrew/opt/oh-my-posh/themes'}
+$env.SHELL-THEME-PATH
+nvim $nu.env-path
+exit
+nvim $env.SHELL-THEME-PATH
+ls $env
+export-env {$env.SHELL-THEME-PATH = '/home/linuxbrew/.linuxbrew/opt/oh-my-posh/themes'}
+env
+$env
+exit
+$env.SHELL-THEME-PATH = /home/linuxbrew/.linuxbrew/opt/oh-my-posh/themes/
+$env.SHELL-THEME-PATH
+$config..themes/
+$config.themes
+$config..themes/
+$config
+$env.config
+$env.config.keybindings
+nvim (fzf)
+nvim $nu.config-path
+neofetch
+nvim $nu.env-path
+ls
+cd ~
+ls
+mkdir Projects
+cd Projects/
+mkdir test
+cd test
+python
+pipx
+yay pipx
+pipx install virtualenv
+virtualenv .venv
+source .venv/bin/activate.nu
+overlay use .venv/bin/activate.nu
+nvim (fzf)
+cd ~
+nvim (fzf)
+nvim $nu.env-path
+nvim $nu.config-path
+cd Projects/test/.venv/
+cd bin
+nvim activate.nu
+which virtualenv
+nvim (which virtualenv)
+nvim $(which virtualenv)
+nvim "(which virtualenv)"
+nvim "which virtualenv"
+cd ..
+deactivate
+overlay use .venv/bin/activate.nu
+pwd
+cd Projects/test/
+deactivate
+overlay use .venv/bin/activate.nu
+deactivate
+nvim .venv/bin/activate.ps1
+nvim .venv/bin/activate.nu
+overlay use .venv/bin/activate.nu
+nvim .venv/bin/activate.nu
+overlay use .venv/bin/activate.nu
+nvim .venv/bin/activate.nu
+overlay use .venv/bin/activate.nu
+nvim .venv/bin/activate.nu
+deactivate
+overlay use .venv/bin/activate.nu
+deactivate
+nvim .venv/bin/activate.nu
+overlay use .venv/bin/activate.nu
+nvim .venv/bin/activate.nu
+cd Projects/test/
+overlay use .venv/bin/activate.nu
+cd Projects/test/
+overlay use .venv/bin/activate.nu
+cd ~
+fzf
+virtualenv -v
+virtualenv --version
+nvim Projects/test/.venv/bin/activate.fish
+cd Projects/test/
+$VIRTUAL_ENV_DISABLE_PROMPT=1
+export-env {$env.VIRTUAL_ENV_DISABLE_PROMPT = 1}
+overlay use .venv/bin/activate.nu
+nvim $nu.env-path
+cd Projects/test/
+overlay use .venv/bin/activate.nu
+git ini
+git init
+pip
+pip install matplotlib pandas scikit-learn
+pip install jupyter notebook
+virtualbox
+yay virtualbox-host-modules-arch
+virtualbox
+fzf
+nvim $nu.config-path
+nvim $nu.env-path
+config nu
+nvim $nu.config-path
+nvim-fzf
+source $nu.config-path
+nvim-fzf
+nvim .install_packgages.sh
+yay virtualbox
+virtualbox
+pwd
+cd /
+yay virtualbox
+virtualbox
+sudo /sbin/vboxconfig
+reboot
+sudo reboot
+/sbin
+fzf
+cd ..
+virtualbox
+yay virtualbox
+virtualbox
+sudo ln -s /usr/lib/virtualbox/postinst-common.sh /sbin/vboxconfig
+vrtualbox
+/sbin/vboxconfig
+source /sbin/vboxconfig
+bash
+cd /usr/lib/virtualbox/
+ls
+virtualbox
+sudo pacman -S linux515-virtualbox-host-modules
+virtualbox
+sudo /sbin/vboxconfig
+reboot
+sudo pacman -Rs linux515-virtualbox-host-modules
+pacman -Qm
+yay -Ps
+pacman -Rs virtualbox
+sudo pacman -Rs virtualbox
+yay -Ps
+cd .cache/yay/
+fz
+fzf
+neofetch
+cd .cache/yay/
+fzf
+yay -Q
+fzf yay -Q
+fzf (yay -Q)
+fzf 'yay -Q'
+fzf
+yay -Q | find virtual
+yay -Q | find vbox
+yay -Q | find zsh
+yay -Q | find linux
+cd ..
+yay -Q | find linux
+virtualbox
+neofetch
+modprobe vboxdrv
+yay virtualbox-host-modules-arch
+modprobe vboxdrv
+yay -Q | find arch
+yay -Q | find host
+yay -Q | find modules
+yay -Q | find vbox
+pacman -S virtualbox-host-modules-arch
+sudo pacman -S virtualbox-host-modules-arch
+yay virtualbox-host-dkms
+yay -Q | find vbox
+yay -Q | find host
+yay virtualbox
+virtualbox
+modprobe vboxdrv
+sudo apt update<\n>sudo apt install --reinstall linux-headers-$(uname -r) virtualbox-dkms dkms
+sudo pacman -S virtualbox-dkms
+yay -Q | find vbox
+yay -Q | find host
+sudo pacman -Rs virtualbox-host-dkms
+sudo pacman -Rs virtualbox virtualbox-host-dkms
+sudo pacman -S virtualbox-host-modules-arch
+yay virtualbox-host-modules-arch
+neofetch
+yay virtualbox-host-modules
+yay virtualbox
+virtualbox
+sudo /sbin/vboxconfig
+modprobe vboxdrv
+sudo modprobe vboxdrv
+sudo /sbin/vboxconfig
+virtualbox
+fdisk
+fdisk --help
+fdisk -l
+sudo fdisk -l
+sudo fdisk /dev/nvme0n1p2
+mkdir dotfiles
+cd dotfiles
+git init
+git config --global init.defaultBranch 'main'
+rm -rf .git
+git init
+git login
+sudo pacman -S github-cli
+gh login
+gh status
+gh auth login
+rm -rf .git
+gh clone https://github.com/ttozatto/dotfiles.git
+gh repo clone https://github.com/ttozatto/dotfiles.git
+ls
+cd dotfiles/
+cd ../..
+cd dotfiles/
+mv dotfiles/ ~
+cd ..
+rm -rf dotfiles/
+gh repo clone https://github.com/ttozatto/dotfiles.git
+cd dotfiles/
+ln -s $nu.env-path .
+ln -s $nu.config-path .
+ls
+mkdir nu
+mv confi.nu nu
+mv config.nu nu
+mv env.nu nu
+ls
+cd nu
+ls
+cd ..
+git status
+git add *
+git status
+gh
+gh status
+gh repo
+git commit -m "add nu"
+git config --global user.email "ttozatto@gmail.com"
+git config --global user.name "Thales Tozatto"
+git commit -m "add nu"
+git push
+brew install --cask git-credential-manager
+brew install git-credential-manager
+brew install git-credential-oauth
+brew uninstall git-credential-oauth
+git push origin main
+ls
+cd nu
+ls
+nvim env.nu
+cat config.nu
+bat config.nu
+ls
+cp $nu.env-path .
+ls
+rm config.nu
+rm env.nu
+cp $nu.env-path .
+cp $nu.config-path .
+ls
+git add *
+git commit -m "replacing symlink by actual files"
+git push
+cp ~/.install_packgages.sh ..
+cd ..
+ls
+cd nu
+ls
+cd ..
+ls
+ls -la
+cp ~/.install_packgages.sh dotfiles/
+ls dotfiles/
+ls
+cd dotfiles/
+ls
+ls -la
+ls -a
+vim .install_packgages.sh
+nvim .install_packgages.sh
+cd ..
+cd .config/
+ls
+cd nvim
+ls
+nvim init.lua
+cd ..
+cd .config
+ls
+cp nvim ~/dotfiles/
+cp nvim ~/dotfiles/ --recursive
+cd ~/dotfiles/
+ls
+mkdir .config
+mc nvim .config/ --recursive
+mv nvim .config/ --recursive
+mv nvim .config/
+ls
+ls -a
+cd .config
+ls
+cd nvim
+ls
+cd ~/.config
+ls
