@@ -8,6 +8,7 @@ sudo pacman -Syu
 
 (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> ~/.zshrc
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+yes | sudo pacman -S base-devel
 
 # Instala nushell
 brew install nushell
