@@ -13,7 +13,7 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 brew install nushell
 
 # Intalação de pacotes
-yes | sudo pacman -S yay neovim ripgrep make \ 
+yes | sudo pacman -S yay neovim ripgrep make \
   fzf bat python-pipx neofetch 
 
 # Instala gcc
@@ -25,9 +25,8 @@ brew install jandedobbeleer/oh-my-posh/oh-my-posh
 # Instalação do virtualenv
 pipx install virtualenv
 
-cd .config
-yes | cp -rf nushell ~/.config
-yes | cp -rf nvim ~/.config
+yes | cp -rf ./config/nushell ~/.config
+yes | cp -rf ./config/nvim ~/.config
 
 echo "Todos os pacotes foram instalados com sucesso!"
 
